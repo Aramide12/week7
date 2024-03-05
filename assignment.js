@@ -79,7 +79,7 @@ function order (names){
 
 //check if all array contains five character
 function five(names){
-    return names.filter(names.length < 5)
+    return names.filter(names.length)
 }
 
 //replace alice with eleanor
@@ -102,7 +102,7 @@ console.log(longestNm(names))
 console.log(shortNm(names))
 console.log(newArr(names))
 console.log(order(names))
-console.log(five(names))
+//console.log(five(names))
 console.log(add(names))
 console.log(emma(names))
 console.log(con(names))
